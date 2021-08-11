@@ -30,6 +30,7 @@ class Program { // <- Bagian class
     public static void main(String args[]){ // <- Method main
         System.out.println("Hello World");
     }
+}
 ```
 
 ## Statements and Expressions in Java
