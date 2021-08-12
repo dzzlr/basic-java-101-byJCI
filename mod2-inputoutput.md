@@ -5,6 +5,7 @@ Java itself already provides three classes to take input:
 1. Class Scanner
 2. BufferReader class
 3. and Class Console.
+
 The three classes are to take input in text-based programs (console). As for the GUI use other classes such as JOptionPane and inputbox on the form.
 As for the output, Java provides the functions print(), println(), and format().
 
