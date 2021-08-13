@@ -68,7 +68,7 @@ Good evening.
 ```
 Python3
 ```python
-time = 20;
+time = 20
 if time < 18:
   print("Good day.")
 else:
