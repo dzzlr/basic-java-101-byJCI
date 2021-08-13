@@ -55,7 +55,7 @@ else:
 Example
 Java
 ```java
-int time = 20;
+int time = 20
 if (time < 18) {
   System.out.println("Good day.");
 } else {
