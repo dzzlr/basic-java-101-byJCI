@@ -7,6 +7,7 @@ Java has the following conditional statements:
 
 ## The if Statement
 Use the `if` statement to specify a block of Java code to be executed if a condition is `true`.
+
 Java
 ```java
 if (condition) {
@@ -34,6 +35,7 @@ if 20 > 18:
 
 ## The else Statement
 Use the `else` statement to specify a block of code to be executed if the condition is `false`.
+
 Java
 ```java
 if (condition) {
@@ -79,6 +81,7 @@ Good evening.
 
 ## The else if Statement
 Use the `else if` statement to specify a new condition if the first condition is `false`.
+
 Java
 ```java
 if (condition1) {
