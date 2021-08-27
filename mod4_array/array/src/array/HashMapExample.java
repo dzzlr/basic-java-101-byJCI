@@ -6,7 +6,6 @@ public class HashMapExample {
         
         HashMap<Integer, String> days = new HashMap<Integer,String>();
         
-        
         days.put(1, "Minggu");
         days.put(2, "Senin");
         days.put(3, "Selasa");
