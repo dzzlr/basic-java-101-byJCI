@@ -69,9 +69,69 @@ After that, we can create an Array List object like this:
 ArrayList al = new ArrayList();
 ```
 
-Because an array list () is an object made of class array lists, it has a method (function) to do something.
-1. Function to add something to the Array List;`add()`
-2. Function to remove something into the Array List;`remove()`
-3. Function to take the size of array list;`size()`
-4. The function for retrieving items in an Array List based on a specific id or `index.get(id)`
+Because an ArrayList() is an object made of class array lists, it has a method (function) to do something.
+1. Function to add something to the ArrayList; `add()`
+2. Function to remove something into the ArrayList; `remove()`
+3. Function to take the size of Arraylist; `size()`
+4. The function for retrieving items in an ArrayList based on a specific id or `index.get(id)`
 5. And there are many other functions.
+
+## Hash Set
+The HashSet class has many useful methods. For example, to add items to it, use the `add()` method:
+```java
+import java.util.*;  
+
+public class HashSet {
+    public static void main(String[] args) {
+
+        // Creating a HashSet
+        HashSet<String> cars = new HashSet<String>();
+
+        // Adding elements in the HashSet
+        cars.add("Volvo");
+        cars.add("BMW");
+        cars.add("Ford");
+        cars.add("BMW");
+        cars.add("Mazda");
+
+        System.out.println(cars);
+    }
+} 
+```
+Because a HashSet() is an object made of class Hash Set, it has a method (function) to do something.
+1. Function to check whether an item exists in a HashSet; `contains()`
+2. Function to remove something into the HashSet; `remove()`
+3. Function to remove all items of HashSet; `clear()`
+4. Function to take the size of HashSet; `size()`
+5. And there are many other functions.
+
+## Hash Map
+```java
+import java.util.*;
+
+public class HashMap {
+    public static void main(String[] args) {
+        
+        // Creating a HashMap
+        HashMap<Integer, String> days = new HashMap<Integer,String>();
+        
+        // Adding key and value in the HashMap
+        days.put(1, "Minggu");
+        days.put(2, "Senin");
+        days.put(3, "Selasa");
+        days.put(4, "Rabu");
+        days.put(5, "Kamis");
+        days.put(6, "Jum'at");
+        days.put(7, "Sabtu");
+        
+        System.out.println("Isi objek days: " + days);
+    }
+}
+```
+Because a HashMap() is an object made of class Hash Map, it has a method (function) to do something.
+1. Function to add item to the HashMap; `put()`
+2. Function to access a value in the HashMap; `get()`
+3. Function to remove an item of HashMap; `remove()`
+4. Function to remove all items of HashMap; `clear()`
+5. Function to take the size of HashMap; `size()`
+6. And there are many other functions.
